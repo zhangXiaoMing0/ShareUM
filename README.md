@@ -1,6 +1,7 @@
 # ShareUM
 仿照友盟目录结构对微信 QQ 微博分享的SDK进行封装，具有热插拔的功能，需要哪个分享导入哪个文件夹
-
+##文件目录
+![](https://github.com/zhangXiaoMing0/ShareUM/blob/master/Photo/%E5%88%86%E4%BA%AB%E7%9B%AE%E5%BD%95.png)
 ##分享前配置添加SDK依赖的系统库文件
 
 在Xcode中打开工程配置文件，选择“summary”一栏。在“summary”中选择“Linked Frameworks and Libraries”一栏，点击“+”图标添加下面八个库文件，分别是  
@@ -173,6 +174,7 @@
 }
 ```
 
+
 ###调用实现方法
 分享点击事件
 ```
@@ -186,6 +188,5 @@
 
 }
 ```
-
-
+![](https://github.com/zhangXiaoMing0/ShareUM/blob/master/Photo/%E5%88%86%E4%BA%AB%E7%9A%84%E9%80%94%E5%BE%84.png)
 
